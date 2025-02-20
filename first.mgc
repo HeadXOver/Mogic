@@ -1,0 +1,104 @@
+obj a;
+obj b;
+obj c name '食物';
+
+a name '苹果';
+b name '水果';
+
+a be b;
+b be c;
+
+a etre c;
+
+propo D name '我打游戏';
+propo A name '我打得菜';
+propo B name '我打得好';
+propo C name '我打得拉';
+know(D->(A or B));
+know(C==(!B));
+know(!A);
+know(D);
+>>D;
+>>A;
+>>B;
+>>C;
+
+propo A name 'A去';
+propo B name 'B去';
+propo C name 'C去';
+propo D name 'D去';
+
+know(A -> not(C == D));
+know(not(B and C));
+know(C -> not(D));
+
+infer(A,B,C,D) tnum 2;
+
+>>A;
+>>B;
+>>C;
+>>D;
+
+propo P name '我去吃饭';
+propo Q name '我去二楼';
+propo R name '我去三楼';
+propo S name '我上楼梯';
+
+know(P -> (Q or R));
+know(Q -> S);
+know(R -> S);
+know(P);
+
+>>P;
+>>Q;
+>>R;
+>>S;
+
+propo P;
+propo Q;
+predi E name 'eat';
+
+obj a name 'animal';
+obj d name 'dog';
+
+obj f name 'food';
+obj b name 'banana';
+
+d be a;
+b be f;
+
+P:E(d,f);
+Q:E(d,b);
+
+know(P);
+
+>>P;
+>>Q;
+
+propo A;
+propo B;
+propo C;
+propo D;
+
+obj a name 'A';
+obj b name 'B';
+obj c name 'C';
+obj d name 'D';
+
+predi Go name '去';
+
+A:Go(a);
+B:Go(b);
+C:Go(c);
+D:Go(d);
+
+know(A -> not(C == D));
+know(not(B and C));
+know(C -> not(D));
+
+infer(A,B,C,D) tnum 2;
+
+>>A;
+>>B;
+>>C;
+>>D;

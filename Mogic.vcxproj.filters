@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\objj">
+      <UniqueIdentifier>{acc6da6a-279d-4905-928f-841929962fc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\ast">
+      <UniqueIdentifier>{ae64a086-675c-4fda-8f11-2341b18b4585}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\词法分析">
+      <UniqueIdentifier>{80e041d1-3dd5-42e3-9cb4-730f85a755f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\逻辑链表">
+      <UniqueIdentifier>{3cd0468c-83ef-4bbd-acd1-2c3e09c4d7bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\语法分析">
+      <UniqueIdentifier>{d2004423-a259-4da5-8f2b-6941481da15a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\求值">
+      <UniqueIdentifier>{e3cbdc25-9651-45e9-b237-97f9946e4707}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\逻辑链表">
+      <UniqueIdentifier>{5273d63c-a9e3-448f-9005-984f990fc94b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\词法分析">
+      <UniqueIdentifier>{74064e1e-f39c-4efa-b8d0-452be4706f5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\语法分析\分析前提式">
+      <UniqueIdentifier>{0f22594b-91fd-41d7-91c6-d3ecff9ebd07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\语法分析\分析表达式">
+      <UniqueIdentifier>{c5e2effe-477c-434c-b4b0-ccce02a4ada5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mgcEvaluator.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Paser.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_bool.hpp">
+      <Filter>头文件\objj</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_declaration.hpp">
+      <Filter>头文件\objj</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_error.hpp">
+      <Filter>头文件\objj</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_identifier.hpp">
+      <Filter>头文件\objj</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_header.hpp">
+      <Filter>头文件\objj</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_integer.hpp">
+      <Filter>头文件\objj</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_logic_node.hpp">
+      <Filter>头文件\objj</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_result_list.hpp">
+      <Filter>头文件\objj</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_string.hpp">
+      <Filter>头文件\objj</Filter>
+    </ClInclude>
+    <ClInclude Include="bool.hpp">
+      <Filter>头文件\ast</Filter>
+    </ClInclude>
+    <ClInclude Include="ast_header.hpp">
+      <Filter>头文件\ast</Filter>
+    </ClInclude>
+    <ClInclude Include="prefix.hpp">
+      <Filter>头文件\ast</Filter>
+    </ClInclude>
+    <ClInclude Include="program.hpp">
+      <Filter>头文件\ast</Filter>
+    </ClInclude>
+    <ClInclude Include="output.hpp">
+      <Filter>头文件\ast</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.hpp">
+      <Filter>头文件\ast</Filter>
+    </ClInclude>
+    <ClInclude Include="know.hpp">
+      <Filter>头文件\ast</Filter>
+    </ClInclude>
+    <ClInclude Include="integer.hpp">
+      <Filter>头文件\ast</Filter>
+    </ClInclude>
+    <ClInclude Include="infix.hpp">
+      <Filter>头文件\ast</Filter>
+    </ClInclude>
+    <ClInclude Include="identifier.hpp">
+      <Filter>头文件\ast</Filter>
+    </ClInclude>
+    <ClInclude Include="expression_statement.hpp">
+      <Filter>头文件\ast</Filter>
+    </ClInclude>
+    <ClInclude Include="declaration.hpp">
+      <Filter>头文件\ast</Filter>
+    </ClInclude>
+    <ClInclude Include="mgcObject.hpp">
+      <Filter>头文件\objj</Filter>
+    </ClInclude>
+    <ClInclude Include="Token.hpp">
+      <Filter>头文件\词法分析</Filter>
+    </ClInclude>
+    <ClInclude Include="Lexer.hpp">
+      <Filter>头文件\词法分析</Filter>
+    </ClInclude>
+    <ClInclude Include="Noeud.hpp">
+      <Filter>头文件\逻辑链表</Filter>
+    </ClInclude>
+    <ClInclude Include="LogicNode.hpp">
+      <Filter>头文件\逻辑链表</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoNode.hpp">
+      <Filter>头文件\逻辑链表</Filter>
+    </ClInclude>
+    <ClInclude Include="mstring.hpp">
+      <Filter>头文件\ast</Filter>
+    </ClInclude>
+    <ClInclude Include="infer.hpp">
+      <Filter>头文件\ast</Filter>
+    </ClInclude>
+    <ClInclude Include="block.hpp">
+      <Filter>头文件\ast</Filter>
+    </ClInclude>
+    <ClInclude Include="if.hpp">
+      <Filter>头文件\ast</Filter>
+    </ClInclude>
+    <ClInclude Include="while.hpp">
+      <Filter>头文件\ast</Filter>
+    </ClInclude>
+    <ClInclude Include="for.hpp">
+      <Filter>头文件\ast</Filter>
+    </ClInclude>
+    <ClInclude Include="func.hpp">
+      <Filter>头文件\ast</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_func.hpp">
+      <Filter>头文件\objj</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_decimal.hpp">
+      <Filter>头文件\objj</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mgcObject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Paser.cpp">
+      <Filter>源文件\语法分析</Filter>
+    </ClCompile>
+    <ClCompile Include="parse_statement.cpp">
+      <Filter>源文件\语法分析</Filter>
+    </ClCompile>
+    <ClCompile Include="parse_program.cpp">
+      <Filter>源文件\语法分析</Filter>
+    </ClCompile>
+    <ClCompile Include="eval_boolean.cpp">
+      <Filter>源文件\求值</Filter>
+    </ClCompile>
+    <ClCompile Include="eval_declaration.cpp">
+      <Filter>源文件\求值</Filter>
+    </ClCompile>
+    <ClCompile Include="eval_identifier.cpp">
+      <Filter>源文件\求值</Filter>
+    </ClCompile>
+    <ClCompile Include="eval_infix.cpp">
+      <Filter>源文件\求值</Filter>
+    </ClCompile>
+    <ClCompile Include="eval_integer.cpp">
+      <Filter>源文件\求值</Filter>
+    </ClCompile>
+    <ClCompile Include="eval_prefix.cpp">
+      <Filter>源文件\求值</Filter>
+    </ClCompile>
+    <ClCompile Include="eval_program.cpp">
+      <Filter>源文件\求值</Filter>
+    </ClCompile>
+    <ClCompile Include="eval_string.cpp">
+      <Filter>源文件\求值</Filter>
+    </ClCompile>
+    <ClCompile Include="mgcEvaluator.cpp">
+      <Filter>源文件\求值</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoNode.cpp">
+      <Filter>源文件\逻辑链表</Filter>
+    </ClCompile>
+    <ClCompile Include="LogicNode.cpp">
+      <Filter>源文件\逻辑链表</Filter>
+    </ClCompile>
+    <ClCompile Include="LogicNode_check.cpp">
+      <Filter>源文件\逻辑链表</Filter>
+    </ClCompile>
+    <ClCompile Include="LogicNode_set_value.cpp">
+      <Filter>源文件\逻辑链表</Filter>
+    </ClCompile>
+    <ClCompile Include="Noeud.cpp">
+      <Filter>源文件\逻辑链表</Filter>
+    </ClCompile>
+    <ClCompile Include="Token.cpp">
+      <Filter>源文件\词法分析</Filter>
+    </ClCompile>
+    <ClCompile Include="Lexer.cpp">
+      <Filter>源文件\词法分析</Filter>
+    </ClCompile>
+    <ClCompile Include="parse_precondition.cpp">
+      <Filter>源文件\语法分析\分析前提式</Filter>
+    </ClCompile>
+    <ClCompile Include="parse_precondition_boolean.cpp">
+      <Filter>源文件\语法分析\分析前提式</Filter>
+    </ClCompile>
+    <ClCompile Include="parse_precondition_group.cpp">
+      <Filter>源文件\语法分析\分析前提式</Filter>
+    </ClCompile>
+    <ClCompile Include="parse_precondition_identifier.cpp">
+      <Filter>源文件\语法分析\分析前提式</Filter>
+    </ClCompile>
+    <ClCompile Include="parse_precondition_infix.cpp">
+      <Filter>源文件\语法分析\分析前提式</Filter>
+    </ClCompile>
+    <ClCompile Include="parse_precondition_prefix.cpp">
+      <Filter>源文件\语法分析\分析前提式</Filter>
+    </ClCompile>
+    <ClCompile Include="paser_prefix.cpp">
+      <Filter>源文件\语法分析\分析表达式</Filter>
+    </ClCompile>
+    <ClCompile Include="paser_boolean.cpp">
+      <Filter>源文件\语法分析\分析表达式</Filter>
+    </ClCompile>
+    <ClCompile Include="parse_string.cpp">
+      <Filter>源文件\语法分析\分析表达式</Filter>
+    </ClCompile>
+    <ClCompile Include="parse_integer.cpp">
+      <Filter>源文件\语法分析\分析表达式</Filter>
+    </ClCompile>
+    <ClCompile Include="parse_infix.cpp">
+      <Filter>源文件\语法分析\分析表达式</Filter>
+    </ClCompile>
+    <ClCompile Include="parse_identifier.cpp">
+      <Filter>源文件\语法分析\分析表达式</Filter>
+    </ClCompile>
+    <ClCompile Include="parse_group.cpp">
+      <Filter>源文件\语法分析\分析表达式</Filter>
+    </ClCompile>
+    <ClCompile Include="parse_expression.cpp">
+      <Filter>源文件\语法分析\分析表达式</Filter>
+    </ClCompile>
+    <ClCompile Include="eval_infer.cpp">
+      <Filter>源文件\求值</Filter>
+    </ClCompile>
+    <ClCompile Include="LogicNode_unset_imagine.cpp">
+      <Filter>源文件\逻辑链表</Filter>
+    </ClCompile>
+    <ClCompile Include="paser_block.cpp">
+      <Filter>源文件\语法分析</Filter>
+    </ClCompile>
+    <ClCompile Include="eval_func_expression.cpp">
+      <Filter>源文件\求值</Filter>
+    </ClCompile>
+    <ClCompile Include="LogicNode_find_obj.cpp">
+      <Filter>源文件\逻辑链表</Filter>
+    </ClCompile>
+    <ClCompile Include="eval_decimal.cpp">
+      <Filter>源文件\求值</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="first.mgc">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="halfirst.mgc">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="README.md">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="text.mgc">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>

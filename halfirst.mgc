@@ -1,0 +1,17 @@
+//个体域三段论
+//1.所有水果都是食物
+//2.苹果是水果
+//3.苹果是食物
+
+obj a;
+obj b;
+obj c;
+
+a name '苹果';
+b name '水果';
+c name '食物';
+
+a be b;
+b be c;
+
+a etre c;

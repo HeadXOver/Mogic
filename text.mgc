@@ -1,0 +1,15 @@
+propo A name 'Aȥ';
+propo B name 'Bȥ';
+propo C name 'Cȥ';
+propo D name 'Dȥ';
+
+know(A -> not(C == D));
+know(not(B and C));
+know(C -> not(D));
+
+infer(A,B,C,D) tnum 2;
+
+>>A;
+>>B;
+>>C;
+>>D;
